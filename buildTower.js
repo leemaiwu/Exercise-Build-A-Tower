@@ -25,7 +25,7 @@ function makeTower(n) {
 
         // for how many spaces,
         // spaces on one side = ((((n - 1) * 2) + 1) - (i * 2) + 1) / 2
-        let spaceLength = (((((n - 1) * 2) + 1) - (i * 2) + 1) / 2) - 1
+        let spaceLength = (((((n - 1) * 2) + 1) - (i * 2) + 1) / 2) - 1 // this equals (n - i - 1)
         let spaceString = ''
         for (let k = 0; k < spaceLength; k++) {
             spaceString += ' '
